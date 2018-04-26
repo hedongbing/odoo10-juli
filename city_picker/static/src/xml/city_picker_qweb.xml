@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates id="template" xml:space="preserve">
+    <t t-name="CityPickerField">
+        <t t-set="placeholder" t-value="widget.getParent().node and widget.getParent().node.attrs.placeholder"/>
+        <div style="position: relative;" class="o_datepicker">
+             <input  class="o_datepicker_input city-picker"
+                    readonly="readonly" type="text"
+                    t-att-name="widget.name"
+                    t-att-placeholder="placeholder" data-toggle="city-picker" />
+            <span class="o_datepicker_button"/>
+        </div>
+    </t>
+</templates>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets_backend" name="assets_backend assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link href="/city_picker/static/src/css/city-picker.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="/city_picker/static/src/js/city-picker.data.js"/>
+                <script type="text/javascript" src="/city_picker/static/src/js/city-picker.js"/>
+                <script type="text/javascript" src="/city_picker/static/src/js/city_picker_widget.js"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>
