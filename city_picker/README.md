@@ -10,14 +10,4 @@
 ---------------
 注意：没有特殊情况基本上不用修改
 
-使用示例：
-<record id="web_address_view_form" model="ir.ui.view">
-    <field name="name">add.view.form</field>
-    <field name="model">web.address</field>
-    <field name="arch" type="xml">
-        <form string="test">
-             <field name="address" widget="city_picker"/>
-             <field name="now_address" widget="city_picker"/>
-        </form>
-    </field>
-</record>
+使用示例：widget="city_picker"
